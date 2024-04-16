@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+/*Fonts*/
+@font-face {
+    font-family: "Suisse Int'l";
+    src: url('../fonts/SuisseIntl-Regular.woff2') format('woff2'),
+         url('../fonts/SuisseIntl-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font: 400 22px/26px "Suisse Int'l", sans-serif;
+    color: #101820;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+.container {
+    width: 100%;
+    max-width: 1920px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.red-text {
+    color: #E63E3A;
+}
+
+/*Base style for button*/
+.base_btn {
+    max-width: 330px;
+    width: 100%;
+    background: #101820;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    line-height: 50px;
+}
+.base_btn-arrow {
+    width: 44px;
+    height: 44px;
+    margin: 0 55px 0 0;
+}
+
